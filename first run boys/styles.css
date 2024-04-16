@@ -1,6 +1,8 @@
-html {
-background-color:black;
+.battle {
+    background-color:black;
+    color:red; 
 }    
-h1 {
-    color: red;
+
+.sanctuary {
+    background-color: rgb(0, 204, 255);
 }
