@@ -10,18 +10,21 @@
     <body class = "battle">
         <h1>Let's <i>DANCE</i></h1>
         <img src="https://assetsio.gnwcdn.com/devil-may-cry-3-special-edition-switch-hed.jpg?width=1200&height=1200&fit=bounds&quality=70&format=jpg&auto=webp" alt="DANTE" title = "You want some!?" height="350">
-        <audio muted controls autoplay src = "music/Devils Never Cry.mp3#t=00:01:00"></audio>
+        <audio controls autoplay src = "music/Devils Never Cry.mp3#t=00:01:00"></audio>
         <p id ="theDarkness">As I touch the world, it touches back. <big>Show me what you're made of.</big></p>
-        <button style="border-radius:10px; color: rgb(232, 14, 7)" onclick="attacked()">Break through!!!</button>
+        <button id="breakthrough" title="Think you got what it takes?" style="border-radius:10px; color: rgb(232, 14, 7)" onclick="attacked()">Break through!!!</button>
         <script>
             function attacked(){
-                document.getElementById("theDarkness").innerHTML="<big>Hmph! I see...</big>";
+                document.getElementById("theDarkness").innerHTML="<h1>Hmph! I see...</h1>";
                 document.getElementById("continue").style.color='red'
-
+                document.getElementById("breakthrough").innerHTML="Nice!";
             }
         </script>
         <br>
         <br>
+        <br>
+        <br>
+        <h3>Battle Toolkit</h3>
         <table bgcolor="black" style="color:darkred" width="360">
             <tr bgcolor="white">
                 <th>Reserves</th>
@@ -50,7 +53,9 @@
         <br>
         <br>
         <br>
+    <!--
         <iframe muted width="400" src="https://www.youtube.com/embed/BB6XPMdzzpY?si=sqdzJTHC0BEJrpHI&amp;start=500" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    -->
         <br> 
         <br>
         <br>
@@ -58,7 +63,7 @@
         <a href = "home.html">
             <button style="border-radius:10px">Rest</button>
         </a>
-    
+
     
     
     </body>
