@@ -1,8 +1,17 @@
 .battle {
     background-color:black;
     color:red; 
-}    
+    font-family: "press start 2p";
 
+    
+}
+
+#theDarkness{
+    border-style: outset;
+    border-width: 5px;
+    padding: 5px;
+
+}
 .sanctuary {
     background-color: rgb(0, 204, 255);
 }
