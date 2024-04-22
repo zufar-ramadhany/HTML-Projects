@@ -2,7 +2,7 @@
     background-color:black;
     color:red; 
     font-family: "press start 2p";
-
+    text-align: center;
     
 }
 
@@ -10,8 +10,56 @@
     border-style: outset;
     border-width: 5px;
     padding: 5px;
+    display: inline-block;
 
 }
+
+#breakthrough{
+    width: 800px;
+    height: 300px;
+    border-radius: 150px;
+    font-family: 'jacquard 24';
+    font-size: 100px;
+    
+    background-color: rgb(252, 4, 4);
+
+}
+
+#breakthrough:hover{
+    color: white;
+    background-color:black;
+    transition: all 0.3s ease; 
+}
+
+#breakthrough:active{
+    border: outset;
+    border-width: 10px;
+    background-color: red;
+}
+
+
+#toolkit{
+    margin: auto;
+}
+
+th, td{
+    padding: 10px;
+}
+
 .sanctuary {
     background-color: rgb(0, 204, 255);
+    font-family: "Merienda";
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d89f37f5-2cdf-4c1f-95cd-5c59f1f9dd41/dfz92ab-d74ced5c-4abe-4e7f-9283-0e7c7590122f.jpg/v1/fill/w_1280,h_1811,q_75,strp/sunset_by_chromaartist_dfz92ab-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTgxMSIsInBhdGgiOiJcL2ZcL2Q4OWYzN2Y1LTJjZGYtNGMxZi05NWNkLTVjNTlmMWY5ZGQ0MVwvZGZ6OTJhYi1kNzRjZWQ1Yy00YWJlLTRlN2YtOTI4My0wZTdjNzU5MDEyMmYuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.ZcCECp3R8TqH-jKTajjwvOmdMHXKZ9W167sxo6EqV9k");
+    background-repeat: no-repeat;    
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    p {
+        background: linear-gradient(to right, rgb(214, 55, 55),rgb(255, 255, 255));
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        display: inline;
+        padding: 5px;
+    }
+    text-align: center;
 }

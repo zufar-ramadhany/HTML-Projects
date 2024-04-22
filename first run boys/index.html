@@ -7,14 +7,17 @@
         <title>It's party time, baby</title>
         <link rel="stylesheet" href="styles.css">
         <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Jacquard+24&display=swap" rel="stylesheet">
+
     </head>
     <body class = "battle">
         <h1>Let's <i>DANCE</i></h1>
         <hr>
         <img src="https://assetsio.gnwcdn.com/devil-may-cry-3-special-edition-switch-hed.jpg?width=1200&height=1200&fit=bounds&quality=70&format=jpg&auto=webp" alt="DANTE" title = "You want some!?" height="350">
-        <audio controls autoplay src = "music/Devils Never Cry.mp3#t=00:01:00" title="Don't you dare."></audio>
+        <audio autoplay controls src = "music/Devils Never Cry.mp3#t=00:01:00" title="Don't you dare."></audio>
         <p id ="theDarkness">As I touch the world, it touches back. <big>Show me what you're made of.</big></p>
-        <button id="breakthrough" title="Think you got what it takes?" style="border-radius:10px; color: rgb(232, 14, 7)" onclick="attacked()">Break through!!!</button>
+        <br>
+        <button id="breakthrough" title="Think you got what it takes?" onclick="attacked()">Break through!!!</button>
         <script>
             function attacked(){
                 document.getElementById("theDarkness").innerHTML="<h1>Hmph! I see...</h1>";
@@ -27,7 +30,7 @@
         <br>
         <br>
         <h3>Battle Toolkit</h3>
-        <table bgcolor="black" style="color:darkred" width="360">
+        <table id="toolkit" bgcolor="black" style="color:darkred" width="360">
             <tr bgcolor="white">
                 <th>Reserves</th>
                 <th>Remembrance</th>
@@ -47,7 +50,7 @@
         <div id="continue" style="color:black">
             <h2>Now... How will you continue?</h2>
             <ul>
-                <li>Dive forward daringly</li>
+                <li>Dive forward without thought</li>
                 <li>Carefully consider options</li>
                 <li>Ask for help</li>
             </ul>
