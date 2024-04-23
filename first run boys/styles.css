@@ -1,3 +1,8 @@
+hr {
+    width: 90%;
+}
+
+
 .battle {
     background-color:black;
     color:red; 
@@ -9,17 +14,17 @@
 #theDarkness{
     border-style: outset;
     border-width: 5px;
-    padding: 5px;
+    padding: 15px;
     display: inline-block;
 
 }
 
 #breakthrough{
-    width: 800px;
-    height: 300px;
-    border-radius: 150px;
+    width: 700px;
+    height: 260px;
+    border-radius: 120px 0 120px;
     font-family: 'jacquard 24';
-    font-size: 100px;
+    font-size: 110px;
     
     background-color: rgb(252, 4, 4);
 
@@ -28,12 +33,14 @@
 #breakthrough:hover{
     color: white;
     background-color:black;
+    border-width: 8px;
+    border-color: gray lightgray;
     transition: all 0.3s ease; 
 }
 
 #breakthrough:active{
-    border: outset;
-    border-width: 10px;
+    border: inset;
+    border-width: 20px;
     background-color: red;
 }
 
@@ -44,6 +51,17 @@
 
 th, td{
     padding: 10px;
+}
+
+li {
+
+    list-style-position: inside;
+    list-style-type: none;
+    line-height: 3;
+}
+
+.fire {
+    width: 30px;
 }
 
 .sanctuary {
@@ -62,4 +80,20 @@ th, td{
         padding: 5px;
     }
     text-align: center;
+
+    #reconnect{
+        border-radius: 10px;
+    }
+
+    #reconnect:hover{
+        color:white;
+        background-color:orangered;
+        transition: all 0.3s ease;
+    }
+
+    #battle{
+        position: relative;
+        top: 200px;
+        bottom: 30px;
+    }
 }
