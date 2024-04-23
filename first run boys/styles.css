@@ -1,3 +1,8 @@
+#dance {
+    text-shadow: 8px -8px 1px rgb(190, 179, 179), 12px -12px 6px rgb(250, 250, 250); 
+    font-size: 50px;
+}
+
 hr {
     width: 90%;
 }
@@ -95,5 +100,18 @@ li {
         position: relative;
         top: 200px;
         bottom: 30px;
+    }
+}
+
+#history {
+    background-image: url("https://www.superjumpmagazine.com/content/images/2022/05/R--1-.jpeg");
+    background-repeat: no-repeat;    
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    button{
+        margin-block: 80px;
+        bottom: 20px;
     }
 }
