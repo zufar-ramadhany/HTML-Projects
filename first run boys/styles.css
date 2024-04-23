@@ -68,7 +68,9 @@ li {
 .fire {
     width: 30px;
 }
-
+#continue {
+    visibility: hidden;
+}
 .sanctuary {
     background-color: rgb(0, 204, 255);
     font-family: "Merienda";

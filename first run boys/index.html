@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="styles.css">
         <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Jacquard+24&display=swap" rel="stylesheet">
-
+        <script type = "text/javascript" src = "app.js"></script>
     </head>
     <body class = "battle">
         <h1 id="dance">Let's <i>DANCE</i></h1>
@@ -20,13 +20,6 @@
         <p id ="theDarkness">As I touch the world, it touches back. <big>Show me what you're made of.</big></p>
         <br>
         <button id="breakthrough" title="Think you got what it takes?" onclick="attacked()">Break through!!!</button>
-        <script>
-            function attacked(){
-                document.getElementById("theDarkness").innerHTML="<h1>Hmph! I see...</h1>";
-                document.getElementById("continue").style.color='red'
-                document.getElementById("breakthrough").innerHTML="Nice!";
-            }
-        </script>
         <br>
         <br>
         <br>
@@ -54,7 +47,7 @@
                 <td>Speech</td>
             </tr>
         </table>
-        <div id="continue" style="color:black">
+        <div id="continue" style="color:red">
             <h2>Now... How will you continue?</h2>
             <ul>
                 <li><img class="fire" src="/images/dalrx54-333f9fee-3e9d-4445-9e81-72fde941fec7.gif"> Dive forward without thought</li>
